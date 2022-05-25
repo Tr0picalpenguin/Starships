@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDA2C3CC283D8A39006CE083 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2C3CB283D8A39006CE083 /* AppDelegate.swift */; };
+		EDA2C3CE283D8A39006CE083 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2C3CD283D8A39006CE083 /* SceneDelegate.swift */; };
+		EDA2C3D3283D8A39006CE083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA2C3D1283D8A39006CE083 /* Main.storyboard */; };
+		EDA2C3D5283D8A3B006CE083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA2C3D4283D8A3B006CE083 /* Assets.xcassets */; };
+		EDA2C3D8283D8A3B006CE083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA2C3D6283D8A3B006CE083 /* LaunchScreen.storyboard */; };
+		EDA2C3E7283D8B93006CE083 /* StarshipListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2C3E6283D8B93006CE083 /* StarshipListTableViewController.swift */; };
+		EDA2C3E9283D8BA0006CE083 /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2C3E8283D8BA0006CE083 /* Starship.swift */; };
+		EDA2C3EB283D8BB0006CE083 /* StarshipController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2C3EA283D8BB0006CE083 /* StarshipController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDA2C3C8283D8A39006CE083 /* Starships.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starships.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA2C3CB283D8A39006CE083 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDA2C3CD283D8A39006CE083 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDA2C3D2283D8A39006CE083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDA2C3D4283D8A3B006CE083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDA2C3D7283D8A3B006CE083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDA2C3D9283D8A3B006CE083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA2C3E6283D8B93006CE083 /* StarshipListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipListTableViewController.swift; sourceTree = "<group>"; };
+		EDA2C3E8283D8BA0006CE083 /* Starship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
+		EDA2C3EA283D8BB0006CE083 /* StarshipController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDA2C3C5283D8A39006CE083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDA2C3BF283D8A39006CE083 = {
+			isa = PBXGroup;
+			children = (
+				EDA2C3CA283D8A39006CE083 /* Starships */,
+				EDA2C3C9283D8A39006CE083 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDA2C3C9283D8A39006CE083 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDA2C3C8283D8A39006CE083 /* Starships.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDA2C3CA283D8A39006CE083 /* Starships */ = {
+			isa = PBXGroup;
+			children = (
+				EDA2C3E2283D8AC8006CE083 /* Controllers */,
+				EDA2C3E1283D8AC0006CE083 /* Model */,
+				EDA2C3E0283D8A91006CE083 /* Storyboard */,
+				EDA2C3DF283D8A60006CE083 /* Supporting Files */,
+			);
+			path = Starships;
+			sourceTree = "<group>";
+		};
+		EDA2C3DF283D8A60006CE083 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDA2C3CB283D8A39006CE083 /* AppDelegate.swift */,
+				EDA2C3CD283D8A39006CE083 /* SceneDelegate.swift */,
+				EDA2C3D4283D8A3B006CE083 /* Assets.xcassets */,
+				EDA2C3D9283D8A3B006CE083 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDA2C3E0283D8A91006CE083 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EDA2C3D1283D8A39006CE083 /* Main.storyboard */,
+				EDA2C3D6283D8A3B006CE083 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		EDA2C3E1283D8AC0006CE083 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDA2C3E8283D8BA0006CE083 /* Starship.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDA2C3E2283D8AC8006CE083 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDA2C3E5283D8B68006CE083 /* StarshipController */,
+				EDA2C3E4283D8B52006CE083 /* StarshipListTableViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EDA2C3E4283D8B52006CE083 /* StarshipListTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EDA2C3E6283D8B93006CE083 /* StarshipListTableViewController.swift */,
+			);
+			path = StarshipListTableViewController;
+			sourceTree = "<group>";
+		};
+		EDA2C3E5283D8B68006CE083 /* StarshipController */ = {
+			isa = PBXGroup;
+			children = (
+				EDA2C3EA283D8BB0006CE083 /* StarshipController.swift */,
+			);
+			path = StarshipController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDA2C3C7283D8A39006CE083 /* Starships */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA2C3DC283D8A3B006CE083 /* Build configuration list for PBXNativeTarget "Starships" */;
+			buildPhases = (
+				EDA2C3C4283D8A39006CE083 /* Sources */,
+				EDA2C3C5283D8A39006CE083 /* Frameworks */,
+				EDA2C3C6283D8A39006CE083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starships;
+			productName = Starships;
+			productReference = EDA2C3C8283D8A39006CE083 /* Starships.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDA2C3C0283D8A39006CE083 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					EDA2C3C7283D8A39006CE083 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = EDA2C3C3283D8A39006CE083 /* Build configuration list for PBXProject "Starships" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDA2C3BF283D8A39006CE083;
+			productRefGroup = EDA2C3C9283D8A39006CE083 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDA2C3C7283D8A39006CE083 /* Starships */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDA2C3C6283D8A39006CE083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA2C3D8283D8A3B006CE083 /* LaunchScreen.storyboard in Resources */,
+				EDA2C3D5283D8A3B006CE083 /* Assets.xcassets in Resources */,
+				EDA2C3D3283D8A39006CE083 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDA2C3C4283D8A39006CE083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA2C3CC283D8A39006CE083 /* AppDelegate.swift in Sources */,
+				EDA2C3E7283D8B93006CE083 /* StarshipListTableViewController.swift in Sources */,
+				EDA2C3CE283D8A39006CE083 /* SceneDelegate.swift in Sources */,
+				EDA2C3EB283D8BB0006CE083 /* StarshipController.swift in Sources */,
+				EDA2C3E9283D8BA0006CE083 /* Starship.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDA2C3D1283D8A39006CE083 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA2C3D2283D8A39006CE083 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDA2C3D6283D8A3B006CE083 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA2C3D7283D8A3B006CE083 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDA2C3DA283D8A3B006CE083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDA2C3DB283D8A3B006CE083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDA2C3DD283D8A3B006CE083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Starships/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tr0picalpenguin.Starships;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDA2C3DE283D8A3B006CE083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Starships/Supporting Files/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tr0picalpenguin.Starships;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDA2C3C3283D8A39006CE083 /* Build configuration list for PBXProject "Starships" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA2C3DA283D8A3B006CE083 /* Debug */,
+				EDA2C3DB283D8A3B006CE083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA2C3DC283D8A3B006CE083 /* Build configuration list for PBXNativeTarget "Starships" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA2C3DD283D8A3B006CE083 /* Debug */,
+				EDA2C3DE283D8A3B006CE083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDA2C3C0283D8A39006CE083 /* Project object */;
+}
